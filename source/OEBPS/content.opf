@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:01d62b70-3418-11e4-8c21-0800200c9a66</dc:identifier>
+    <dc:title>Physik - Aufzeichnungen aus dem EK</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Schüler des EK">Schüler&#160;des&#160;EK</dc:creator>
+    <dc:language>de</dc:language>
+    <dc:date opf:event="publication">2000-00-00</dc:date>
+    <dc:date opf:event="modification">2017-06-23</dc:date>
+    <meta name="Sigil version" content="0.0.1" />
+    <meta name="cover" content="cover_Manual_DE.png" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="stylesheet.css" href="styles/stylesheet.css" media-type="text/css"/>
+    <item id="chap_00.html" href="text/chap_00.html" media-type="application/xhtml+xml"/>
+    <item id="chap_05.html" href="text/chap_05.html" media-type="application/xhtml+xml"/>
+    <item id="icon_clock.png" href="images/icon_clock.png" media-type="image/png"/>
+    <item id="tolino-Iconfont.otf" href="fonts/tolino-Iconfont.otf" media-type="application/vnd.ms-opentype"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="chap_00.html"/>
+    <itemref idref="chap_01.html"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Buchdeckel" href="Text/cover.xhtml"/>
+  </guide>
+</package>
+<!--This File needs and update after file assembly changed !!!!-->
