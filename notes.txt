@@ -1,0 +1,41 @@
+extra tag syntax used in documents:
+################ TAGS ################
+[?]text[/?] -> needs to be checked by another person but should be correct.
+[!]text[/!] -> needs to be checked and is propably wrong.
+
+[M\] -> something is missing
+
+create own tag syntax:
+If you add your own syntax please put a short discription of your tag below!
+	basic syntax from XML But <> turns into []
+	example:
+		<p>text</p>	-> [p]text[/p]
+		<hr/>		-> [hr/]
+################ USER TAGS ################
+
+
+In the final version every spezial syntax elements have to be removed!
+
+################ NOTES ################
+-styles + example:
+	-list
+	-section:
+		| Headline
+		|  content
+		|  content
+	-table
+	-comparision table
+	-graph				(SVG)
+	-technical drawing	(SVG)
+	-t, s, v, a, etc. as global style
+	-definition of sth.
+-ideas:
+	-toolbar (bottom screen):
+		-shortcut to formulas, periodic table
+		-table of content
+-ToDo:
+	-replace <p> with <ul>
+	-design standards
+	-font with common icons & symbols
+
+################ NAMING STANDARDS ################
